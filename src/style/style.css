@@ -569,3 +569,27 @@
     margin-left: 31px;
     font-style: normal;
 }
+
+.footer {
+    background-color: var(--color-dark-alternate);
+    max-width: 1127px;
+    padding-top: 60px;
+
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 34px;
+}
+
+.footer-contact, .footer-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    align-items: center;
+}
